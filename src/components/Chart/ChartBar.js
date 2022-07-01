@@ -1,6 +1,6 @@
 import "./ChartBar.css";
 
-const ChartBar = (props) => {
+const ChartBar = props => {
   let barFillHeight = "0%";
 
   if (props.maxValue > 0) {
@@ -9,9 +9,9 @@ const ChartBar = (props) => {
 
   return (
     <div className="chart-bar">
-      <div className="chart_bar__inner">
+      <div className="chart-bar__inner">
         <div
-          className="chart_bar__fill"
+          className="chart-bar__fill"
           style={{ height: barFillHeight }}
         ></div>
       </div>
